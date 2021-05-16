@@ -1,0 +1,35 @@
+{
+  "name": "vue-remote-components-loader",
+  "version": "1.0.0",
+  "description": "Dynamically load a Vue Component from a URL",
+  "author": "MichaelJier <chem908430737@icloud.com>",
+  "homepage": "https://github.com/MIchaelJier/vue-remote-components-loader",
+  "main": "dist/index.js",
+  "typings": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vue-module",
+    "vue-module-loader",
+    "micro-front-end"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MIchaelJier/vue-remote-components-loader"
+  },
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "doc:dev": "vuepress dev doc",
+    "doc:build": "vuepress build doc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "rollup-plugin-terser": "^5.1.2",
+    "vuepress": "^1.2.0"
+  }
+}
