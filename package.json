@@ -15,7 +15,7 @@
     "vue",
     "vue-module",
     "vue-module-loader",
-    "micro-front-end"
+    "micro-front-end" 
   ],
   "repository": {
     "type": "git",
@@ -24,8 +24,7 @@
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",
-    "doc:dev": "vuepress dev doc",
-    "doc:build": "vuepress build doc"
+    "pub": "npm publish"
   },
   "dependencies": {},
   "devDependencies": {

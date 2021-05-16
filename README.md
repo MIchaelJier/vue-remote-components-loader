@@ -4,7 +4,7 @@ Dynamically load a Vue Component from a URL
 ## Install
 
 ```
-yarn add vue-module-loader
+yarn add vue-remote-components-loader
 ```
 
 ## Start
